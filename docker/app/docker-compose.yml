@@ -1,0 +1,9 @@
+version: "2"
+services:
+  voiceboot:
+    image: voiceboot
+    build: ../../
+    ports:
+    - "3000:3000"
+    container_name: voiceboot
+
