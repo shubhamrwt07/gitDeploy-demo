@@ -5,9 +5,7 @@ function App() {
   return (
     <>
     <div><h1>hello, my name is shubham rwt</h1>
-    <h2>Paragraph  
-
-    </h2>
+    <h2>shubharwt</h2>
     <p>
 What this handout is about
 This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas.
