@@ -1,0 +1,99 @@
+.container_main {
+  min-height: 86vh !important;
+}
+
+.headerImage {
+  max-width: 100%;
+}
+
+.card_top {
+  border-radius: 15px;
+  border: 1px solid #eaeaea;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.height_Card_main {
+  max-height: 19.5rem;
+  min-height: 19.5rem;
+}
+
+.background_main_card {
+  min-height: 19.5rem;
+  position: relative;
+}
+
+.background_main_card_colsix {
+  min-height: 8rem;
+  position: relative;
+}
+
+.background_main_card img,
+.background_main_card_colsix img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.head_main,
+.head_main h2,
+.head_main h3,
+.head_main h4,
+.head_main p,
+.head_main {
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+}
+
+.content_main h2,
+.content_main h3,
+.content_main h4,
+.content_main p,
+.content_main li,
+.content_main ul,
+.content_main span,
+span {
+  font-size: 0.93rem;
+  text-wrap: wrap;
+}
+
+.dropDown_category {
+  z-index: 1;
+}
+
+@media (min-width: 230px) and (max-width: 676px) {
+  .height_Card_main {
+    min-height: auto;
+    max-height: auto;
+  }
+
+  .background_main_card {
+    min-height: 7rem;
+  }
+
+  .height_Card_main p {
+    font-size: 0.63rem;
+    text-align: start;
+  }
+
+  .head_main,
+  .head_main h2,
+  .head_main h3,
+  .head_main h4,
+  .head_main p,
+  .head_main {
+    font-size: 14px !important;
+  }
+
+  .height_Card_main span {
+    font-size: 13px !important;
+  }
+
+  .container_main {
+    min-height: 80vh !important;
+  }
+}

@@ -1,0 +1,345 @@
+.main-body {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+.navRow a {
+  font-size: 20px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.your-header {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: position 10s;
+  -ms-transition: position 10s;
+  -o-transition: position 10s;
+  transition: all 0.5s ease;
+  transition: 0.9s;
+}
+
+.navRow a:hover {
+  color: #f9a004;
+}
+
+.custom_width_for_call_icon {
+  width: 26px;
+
+  height: 26px;
+}
+
+.custom_button_style_call {
+  width: 17px;
+  height: 19px;
+
+  filter: brightness(0) invert(1);
+}
+
+.custom_search_icon {
+  width: 22px !important;
+}
+
+.active1 a.active {
+  color: #f9a004 !important;
+
+  font-weight: 900 !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #524620;
+}
+
+.navbar-light .navbar-toggler i {
+  color: white;
+}
+
+.getIn a {
+  height: 1.9rem;
+  color: white;
+}
+
+.getIn img {
+  width: 12px;
+}
+.header_logo_image {
+  width: 12rem;
+}
+
+@media only screen and (max-width: 998px) {
+  .navRow {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background: black !important;
+    transform: translate(0, 0);
+    line-height: 3;
+    height: calc(100vh + 0px);
+  }
+
+  .navRow {
+    -webkit-animation: scale-up-ver-bottom 0.4s
+      cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-ver-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+
+  @-webkit-keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+      transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+    }
+
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+    }
+  }
+
+  @keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+      transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+    }
+
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+    }
+  }
+
+  .button-div button {
+    width: 11rem;
+  }
+
+  .getIn a {
+    height: 3rem;
+    width: 13rem;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .button-div button {
+    width: 11rem;
+  }
+
+  .logo-size {
+    width: auto;
+    height: 31px;
+  }
+
+  .mobile-navbar {
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 10px #2122244d;
+  }
+
+  .media-icon {
+    width: auto;
+    height: 35px;
+    text-align: center;
+    left: 15px;
+    z-index: 100;
+  }
+
+  .ph_iconWork {
+    background: black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .phone_icon_mobile {
+    height: 12px;
+    width: 12px;
+  }
+  .toggle_btn_size {
+    font-size: 18px;
+  }
+  .getIn a {
+    height: 2.4rem;
+    width: 13rem;
+  }
+
+  .navbar-collapse.show {
+    /* left: 0; */
+  }
+
+  .mobile_icon_width {
+    width: -webkit-fill-available;
+    height: 2rem;
+    object-fit: scale-down;
+  }
+
+  .custom_width_for_call_mobileicon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.header_container {
+  background-color: #f4f4f4;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.link_container a {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header_container {
+    border-radius: 0px;
+    box-shadow: rgb(0 0 0) 0px 15px 20px -20px;
+    z-index: 22;
+  }
+
+  .rowth_logo {
+    width: 100px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1900px) {
+  .navRow a {
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s ease;
+  }
+
+  .your-header {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+    transition: 0.9s;
+  }
+
+  .navRow a:hover {
+    color: #f9a004;
+  }
+
+  .active1 a.active {
+    color: #f9a004 !important;
+
+    font-weight: 800 !important;
+  }
+  .navbar .nav-item a:hover {
+    color: #f9a004 !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: #524620;
+  }
+
+  .navbar-light .navbar-toggler i {
+    color: white;
+  }
+
+  .getIn a {
+    height: 1.3rem;
+    color: white;
+  }
+
+  .getIn img {
+    width: 10px;
+  }
+}
+
+.navbar_HeadFont {
+  font-size: 20px;
+}
+
+@media (min-width: 1300px) and (max-width: 1700px) {
+  .navbar_HeadFont {
+    font-size: 17px;
+  }
+
+  .video_Work {
+    height: 26rem !important;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .navbar_HeadFont {
+    font-size: 11px;
+  }
+
+  .header_logo_image {
+    width: 10rem;
+  }
+
+  .video_Work {
+    height: 22rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  .navbar_HeadFont {
+    font-size: 17px;
+  }
+
+  .video_Work {
+    height: 16rem !important;
+  }
+}
+
+.border__class {
+  border: 1px solid red;
+}
+.add_width_all_industires {
+  transform: translate(-171px, 10px);
+  width: 27rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.add_font_industry {
+  font-size: 12px !important;
+  text-decoration: none;
+}
+.height_add_content_drop {
+  height: 2rem;
+}
+.industry_open_all {
+  font-size: 25px !important;
+}
+.tooltips:after {
+  border-right: solid transparent 10px;
+  border-left: solid transparent 10px;
+  border-bottom: solid white 12px;
+  content: " ";
+  left: 44%;
+  /* margin-left: -103px; */
+  position: absolute;
+  top: -12px;
+}
+.font_dec_indust {
+  /* font-size: 13px!importnat; */
+  font-size: 13px !important;
+}
+.dropdowm {
+  border: 1px solid gray;
+  transform: translate(0px, 16px);
+  background: white;
+  border-radius: 10px;
+}

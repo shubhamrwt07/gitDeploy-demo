@@ -1,0 +1,605 @@
+.main-body {
+  overflow-x: hidden;
+}
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 24rem;
+}
+.parasize {
+  font-size: 12px;
+}
+.img-size {
+  height: auto;
+  width: 38rem;
+}
+.background_color {
+  background-color: #ebebeb;
+}
+.textcolor {
+  color: #7a7a7a;
+}
+.iconbold {
+  font-size: 19px;
+}
+h1.fw-bold {
+  font-size: 51px;
+}
+.oyo_hotel_heading {
+  font-size: 37px;
+  font-weight: 900;
+  color: red;
+}
+.image_HeightDiv {
+  position: relative;
+  height: 30rem;
+  z-index: -1;
+}
+.width,
+.width_img {
+  width: -webkit-fill-available;
+}
+.containerFor1450px {
+  max-width: 1550px !important;
+  margin: 0 auto;
+}
+.contentsheading {
+  bottom: 0;
+  top: 0;
+  color: #fff;
+}
+.bgcoloroyo {
+  background-color: #f2f2f2;
+}
+.content,
+.content_inner-row {
+  height: -webkit-fill-available;
+}
+.rowths {
+  font-weight: 600;
+  color: #fff;
+}
+.study-btn,
+.study-btn1 {
+  color: #000;
+  border-radius: 10px;
+}
+section .contentsheading h1 {
+  line-height: 111px;
+  color: #fff;
+  font-weight: 600;
+  border-top: 6px solid #fff;
+  font-size: 1.5em !important;
+  border-bottom: 6px solid #fff;
+}
+section .sub-banner-heading59 {
+  line-height: 39px;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 500;
+}
+.section_1 h2 {
+  font-size: 18px;
+  line-height: 32px !important;
+}
+.font-size-16 {
+  font-size: 17px;
+  line-height: 24px;
+}
+.section_59 h2 {
+  line-height: 62px;
+}
+.section_59 p {
+  line-height: 25px;
+  font-weight: 400;
+  text-align: start;
+}
+.study-btn,
+.study-btn1 {
+  line-height: 36px;
+  font-weight: 600;
+}
+.section_ p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: justify;
+}
+.section_1 .content_div .btn-outline-dark h6 {
+  font-weight: 600 !important;
+  border-width: 3px;
+  border-radius: 10px;
+}
+.section_1 .content_div span {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 19px;
+}
+.section_1 .content_div h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.section_1 .content_div32 h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.section_1 .content_div32 span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0c2b95;
+  line-height: 22px;
+}
+.study-btn {
+  font-size: 14px;
+  border: 3px solid #000;
+  background-color: #fff;
+}
+.study-btn1 {
+  font-size: 24px;
+  border: 3px solid #000;
+}
+.caress span,
+.section_1 .blue_text span {
+  color: #0c2b95;
+}
+.section_1 .crypto-sec h2 {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section_1 .crypto-sec p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.bgcoloroyo {
+  border-radius: 10px;
+}
+.bgcoloroyo1 {
+  background: 0 0;
+}
+.star_image_custom {
+  width: 20px;
+  height: 20px;
+}
+.banner_ParentFont {
+  font-size: 25px;
+}
+.inner_ChildFont {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+.heading_text {
+  font-size: 36px;
+}
+.radius-30 {
+  border-radius: 30px;
+}
+@media only screen and (max-width: 767px) and (min-width: 0px) {
+  section .contentsheading h1 {
+    line-height: 34px;
+    color: #fff;
+    font-weight: 600;
+    border-top: 2px solid #fff;
+    font-size: 18px !important;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+  }
+  section .sub-banner-heading59 {
+    line-height: 25px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .radius-30 {
+    border-radius: 15px;
+  }
+  .oyo_hotel_heading {
+    font-size: 18px !important;
+    color: red;
+    font-weight: 900;
+  }
+  .font-size-16 {
+    font-size: 9px !important;
+  }
+  .section_1 .content_div span {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 8px;
+  }
+  .section_1 .content_div h6 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .study-btn {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #fe5c01;
+  }
+  .bgcoloroyo1 {
+    background-color: #efefef !important;
+    border-radius: 15px;
+  }
+  .star_image_custom {
+    width: 10px;
+    height: 10px;
+  }
+  .mob_width123,
+  .mob_width_cus,
+  .oyosimgg3 {
+    width: 50%;
+  }
+  .oyo-img-mobile {
+    width: 167%;
+    width: -moz-available;
+    margin-left: -61%;
+  }
+  .section_1 h2 {
+    font-size: 12px;
+    line-height: 28px !important;
+  }
+  .custom_width_for_protfolio_logos2 {
+    width: 45% !important;
+    margin-right: 1%;
+  }
+  .edureka-img-mob {
+    width: 96%;
+    margin-top: -1%;
+  }
+  .autos-mob {
+    width: 96%;
+  }
+  .margin_bottom {
+    margin-bottom: -1rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .margin_bottom {
+    margin-bottom: -3rem !important;
+  }
+  .image_HeightDiv1 {
+    position: relative;
+    height: 21rem;
+    z-index: -1;
+  }
+  .custom-container {
+    max-width: 790px;
+  }
+  .inner_ChildFont {
+    font-size: 14px !important;
+    line-height: 27px;
+  }
+  .section_1 .content_div32 h6 {
+    font-size: 0.6em;
+    font-weight: 500;
+  }
+  .section_1 .content_div32 span {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #0c2b95;
+    line-height: 51px;
+  }
+  .study_button {
+    width: 9rem;
+  }
+  .image_HeightDiv {
+    position: relative;
+    height: 16rem;
+    z-index: -1;
+  }
+  .width_img,
+  img {
+    width: -webkit-fill-available;
+  }
+  .heading_text {
+    font-size: 20px;
+  }
+  section .contentsheading h1 {
+    line-height: 47px;
+  }
+  .study-btn {
+    font-size: 12px;
+  }
+  .study-btn1 {
+    font-size: 14px;
+  }
+  .section_1 h2 {
+    font-size: 15px;
+    line-height: 20px !important;
+  }
+  .oyo_hotel_heading {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+  }
+  .font-size-16 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .section_1 .content_div span {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .section_1 .content_div h6 {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .custom_wdth_of_portfo_images {
+    width: 91% !important;
+    margin-left: 31% !important;
+  }
+  .custom_wdth_of_portfo_images2 {
+    width: 155% !important;
+    margin-left: 20% !important;
+    margin-bottom: 0 !important;
+    margin-top: -81% !important;
+  }
+  .custom_wdth_of_portfo_images3 {
+    width: 100% !important;
+    margin-left: -14% !important;
+  }
+  .my_gov_image {
+    width: 100% !important;
+    margin-left: -5% !important;
+    margin-top: 14% !important;
+  }
+  .RowthAutos_img {
+    width: 127% !important;
+    margin-top: 11% !important;
+    margin-left: -6% !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .image_HeightDiv1 {
+    position: relative;
+    height: 25rem;
+    z-index: -1;
+  }
+  .study-btn1 {
+    font-size: 14px;
+  }
+  .study-btn {
+    font-size: 13px;
+  }
+  .image_HeightDiv {
+    position: relative;
+    height: 30rem;
+    z-index: -1;
+  }
+  .inner_ChildFont {
+    font-size: 14px !important;
+    line-height: 27px;
+  }
+  .section_1 .content_div32 h6 {
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .width_img {
+    width: -webkit-fill-available;
+  }
+  .heading_text {
+    font-size: 30px;
+  }
+  section .contentsheading h1 {
+    line-height: 47px;
+  }
+  .section_1 .content_div span {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19px;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .width_img {
+    width: -webkit-fill-available;
+  }
+  .section_1 .content_div32 h6 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .study-btn1 {
+    font-size: 14px;
+  }
+  .inner_ChildFont {
+    font-size: 19px;
+  }
+  .image_HeightDiv {
+    position: relative;
+    z-index: -1;
+  }
+  .heading_text {
+    font-size: 31px;
+  }
+  section .contentsheading h1 {
+    line-height: 42px;
+    color: #fff;
+    font-weight: 600;
+    border-top: 4px solid #fff;
+    font-size: 30px !important;
+    border-bottom: 4px solid #fff;
+  }
+  .section_1 .content_div span {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 33px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xl {
+    max-width: 1480px !important;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .containerFor1450px {
+    max-width: 1450px !important;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+  .containerFor1450px {
+    max-width: 1350px !important;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .containerFor1450px {
+    max-width: 1150px !important;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .containerFor1450px {
+    max-width: 950px !important;
+    margin: 0 auto;
+  }
+  .custom_wdth_of_portfo_images {
+    width: 60% !important;
+    margin-left: 18% !important;
+  }
+  .custom_wdth_of_portfo_images2 {
+    width: 80% !important;
+    margin-left: 19% !important;
+    margin-bottom: 6% !important;
+  }
+  .custom_wdth_of_portfo_images3 {
+    width: 65% !important;
+    margin-left: 20% !important;
+  }
+  .custom_width_for_protfolio_logos2 {
+    width: 50%;
+  }
+  .custom_wdth_of_portfo_images8 {
+    width: 81% !important;
+    margin-left: 8% !important;
+  }
+  .custom_wdth_of_portfo_images4 {
+    width: 60% !important;
+    margin-bottom: 5%;
+  }
+  .margin_bottom {
+    margin-bottom: -10%;
+  }
+  .margin_bottom2 {
+    margin: bottom -10%;
+    z-index: -1111;
+  }
+  .custom_width_for_protfolio_logos3 {
+    width: 45%;
+  }
+  .my_gov_image {
+    width: 69% !important;
+    margin-left: 14% !important;
+    /* margin-top:-12% */
+  }
+  .RowthAutos_img {
+    width: 85% !important;
+    margin-top: -13%;
+    margin-left: 17% !important;
+  }
+  .custom_text {
+    width: 63% !important;
+  }
+  .crypto_image {
+    width: 78% !important;
+    margin-left: 10% !important;
+  }
+  .Okshan_image {
+    width: 61%;
+    margin-left: 55%;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .containerFor1450px {
+    max-width: 750px !important;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .containerFor1450px {
+    max-width: 550px !important;
+    margin: 0 auto;
+  }
+}
+.custom_wdth_of_portfo_images {
+  width: 80%;
+  margin-left: 32%;
+}
+.custom_wdth_of_portfo_images2 {
+  width: 100%;
+  margin-left: 11%;
+  margin-bottom: 11%;
+}
+.custom_wdth_of_portfo_images3 {
+  width: 72%;
+  margin-left: 25%;
+}
+.custom_width_for_protfolio_logos2 {
+  width: 45%;
+}
+.custom_wdth_of_portfo_images8 {
+  width: 91%;
+  margin-left: 18%;
+}
+.custom_wdth_of_portfo_images4 {
+  width: 60%;
+  margin-bottom: 5%;
+}
+.margin_bottom {
+  margin-bottom: -8rem;
+}
+.margin_bottom2 {
+  margin: bottom -8rem;
+  z-index: -1111;
+}
+.custom_width_for_protfolio_logos3 {
+  width: 45%;
+}
+.my_gov_image {
+  width: 79%;
+  margin-left: 34%;
+  /* margin-top: -12%; */
+}
+.RowthAutos_img {
+  width: 95%;
+  margin-top: -13%;
+  margin-left: 24%;
+}
+.custom_text {
+  width: 83%;
+}
+.crypto_image {
+  width: 88%;
+  margin-left: 25%;
+}
+.Okshan_image {
+  width: 61%;
+  margin-left: 55%;
+}
+.image_seekh {
+  width: 86%;
+  margin-left: 18%;
+  /* margin-top: -16%; */
+}
+.image_turns {
+  width: 100%;
+  margin-left: 11%;
+  margin-bottom: 12%;
+}
+.loadbtn button {
+  color: white;
+  border: 0.5px solid #f9a004;
+  background: #f9a004;
+}

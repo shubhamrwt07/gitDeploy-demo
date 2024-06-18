@@ -1,0 +1,70 @@
+.radius-15 {
+  border-radius: 30px;
+}
+
+.banner-heading {
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 30px !important;
+  font-size: 1.5em !important;
+}
+
+.heading_ParentText_about {
+  font-size: 20px;
+}
+
+.sub_banner_heading {
+  line-height: 20px !important;
+}
+
+.org_text65 {
+  color: #b0b0b0;
+}
+.org_text652 {
+  background-color: #efefef;
+}
+.webuild {
+  font-weight: 700;
+}
+
+.beyondbrdr {
+  color: #fe5c01;
+  font-weight: 700;
+  line-height: 98%;
+}
+/* 
+.list_height {
+  height: 43%;
+} */
+
+.amount {
+  font-size: 60px !important;
+}
+.modal-title {
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .banner-heading {
+    font-size: 20px !important;
+    border-bottom: none !important;
+    color: #000 !important;
+    line-height: 18px !important;
+  }
+  /* 
+  .list_height {
+    height: 47%;
+  } */
+
+  .custom_whiteSpace {
+    white-space: break-spaces !important;
+  }
+
+  .amount {
+    font-size: 50px !important;
+  }
+
+  .button {
+    font-size: 17px !important;
+  }
+}

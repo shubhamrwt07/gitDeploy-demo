@@ -1,0 +1,197 @@
+.main_bankContainer{
+overflow-x:hidden !important
+}
+.banner-heading11{
+font-weight:700;
+font-size:30px;
+line-height:98%;
+color:#000
+}
+.sub_banner_heading11{
+font-size:20px;
+font-weight:500;
+line-height:25px !important
+}
+.banking2 .box1_heading1{
+font-weight:600;
+font-size:54px;
+line-height:98%
+}
+.rowthtech_sol{
+background:#f97a04;
+border-radius:20px;
+color:#fff;
+padding:0 20px;
+font-size:1em;
+font-weight:600
+}
+.banking11 .mobile_inner_phara_headings,.banking8 .inner_phara_headings6,.inner_phara_headings3{
+font-weight:700;
+font-size:18px;
+line-height:24px
+}
+.inner_phara_content3{
+font-size:17px;
+font-weight:500;
+line-height:24px
+}
+.box1_heading{
+font-size:22px;
+font-weight:600;
+line-height:22.04px;
+display:inline-block;
+color:#000
+}
+.banking11 .mobile_inner_phara_content,.banking8 .inner_phara_content6{
+font-weight:500;
+font-size:17px;
+line-height:24px
+}
+.org_text{
+border-bottom:7px solid #fe8a01 !important;
+display:inline-block
+}
+.width1{
+width:-webkit-fill-available
+}
+.containerFor1600px{
+margin:20px 120px
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.containerFor1601px{
+margin:5px
+}
+.banner-heading11{
+font-weight:700;
+font-size:20px;
+line-height:98%
+}
+.sub_banner_heading11{
+font-size:11px;
+font-weight:500;
+line-height:118% !important
+}
+.rowthtech_sol{
+background:#f97a04;
+border-radius:20px;
+color:#fff;
+padding:2px 12px;
+font-size:11px;
+font-weight:600
+}
+.box1_phara{
+font-size:10px;
+font-weight:500;
+line-height:98%
+}
+.banking12 .box1_heading1{
+font-weight:600;
+font-size:24px;
+line-height:111.5%
+}
+.box1_heading{
+font-size:20px;
+font-weight:600;
+line-height:111%
+}
+.inner_phara_headings3{
+font-size:20px;
+line-height:19px
+}
+.inner_phara_content3{
+font-size:10px;
+line-height:18px;
+text-align:justify
+}
+.image_sizing{
+width:3rem
+}
+.image_sizing1{
+width:37px;
+height:51px
+}
+.banking11 .mobile_inner_phara_content,.banking8 .inner_phara_content6{
+font-weight:500;
+font-size:10px;
+line-height:18px;
+text-align:justify
+}
+.banking11 .mobile_inner_phara_headings,.banking8 .inner_phara_headings6{
+font-weight:600;
+font-size:20px;
+line-height:98%
+}
+.image_sizings{
+width:2rem
+}
+.org_text{
+border-bottom:3px solid #fe8a01 !important
+}
+.width_mob_bank{
+width:98%
+}
+
+}
+@media only screen and (min-width:1800px){
+.containerFor1601px{
+max-width:1650px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:1600px) and (max-width:1800px){
+.containerFor1601px{
+max-width:1450px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:1400px) and (max-width:1600px){
+.containerFor1601px{
+max-width:1300px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+.containerFor1601px{
+max-width:1100px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:1100px) and (max-width:1200px){
+.containerFor1601px{
+max-width:1000px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:1000px) and (max-width:1100px){
+.containerFor1601px{
+max-width:900px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:900px) and (max-width:1000px){
+.containerFor1601px{
+max-width:800px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:800px) and (max-width:900px){
+.containerFor1601px{
+max-width:800px !important;
+margin:0 auto
+}
+
+}
+@media only screen and (min-width:768px) and (max-width:800px){
+.containerFor1601px{
+max-width:650px !important;
+margin:0 auto
+}
+
+}
